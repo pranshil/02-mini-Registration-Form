@@ -1,0 +1,27 @@
+server:
+  port: 1234
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: pranshil
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: xrnovjxtkauogwio
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: pranshil94@gmail.com
+  main:
+    banner-mode: 'off'
+    
